@@ -1,0 +1,79 @@
+.Post{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.Post > img{
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.postReact{
+   display: flex;
+   align-items: flex-start;
+   gap: 1.5rem;
+}
+.comments-section {
+    margin-top: 1rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+  }
+  
+  .comments-section form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .comments-section input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+  }
+  
+  .comments-section button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0095f6;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .comments-section button:hover {
+    background-color: #0077cc;
+  }
+  
+  .comments {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .comments p {
+    margin: 0;
+    padding: 0.4rem 0.6rem;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #333;
+    width: fit-content;
+    max-width: 80%;
+  }
+  
+  .comments p b {
+    margin-right: 0.3rem;
+    color: #1a1a1a;
+  }
+  
