@@ -19,7 +19,7 @@ services:
     restart: unless-stopped
     environment:
       - PORT=4000
-      - MONGO_DB=mongodb://root:example@mongo:27017/socialapp?authSource=admin
+      - MONGO_DB=mongodb+srv://socialmedia:3i0eZAqBFrfZWRLS@socialmediawebapp.lnrvffn.mongodb.net/?retryWrites=true&w=majority&appName=SocialMediaWebApp
     depends_on:
       - mongo
     ports:
